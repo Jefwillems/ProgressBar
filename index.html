@@ -6,10 +6,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/style.css" rel="stylesheet">
+    <title>progress bar</title>
+    <link rel="stylesheet prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700">
 </head>
 
 <body>
-    hallo ik ben jef
+    <div class="boxes">
+        <div class="box">
+            <div class="progress">
+                <div class="bar">
+                    <div class="bar__fill" style="width:0%"></div>
+                </div>
+                <div class="point point__done">
+                    <a href="#">
+                        <div class="bullet"></div>
+                        <label class="label">Groep</label>
+                    </a>
+                </div>
+                <div class="point point__done">
+                    <a href="#">
+                        <div class="bullet"></div>
+                        <label class="label">Motivatie</label>
+                    </a>
+                </div>
+                <div class="point point__doing">
+                    <a href="#">
+                        <div class="bullet"></div>
+                        <label class="label">Label</label>
+                    </a>
+                </div>
+                <div class="point">
+                    <a href="#">
+                        <div class="bullet"></div>
+                        <label class="label">Activiteiten</label>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+        crossorigin="anonymous"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
